@@ -17,3 +17,16 @@ outputs:
 Access granted
 Access denied
 """
+count = 0
+User = ""
+Pass = ""
+while User != "admin" and Pass != "12345":
+    User = (input("Please enter username "))
+    Pass = (input("Please enter password "))
+    count = count + 1
+    if User == "admin" and Pass == "12345":
+        print ("Access granted")
+    else:
+        print ("Access denied")
+    if count > 2:
+        break

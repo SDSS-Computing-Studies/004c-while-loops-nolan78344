@@ -15,3 +15,8 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+y = 1
+x = float(input("Please enter number "))
+while (y < 13):
+    print(str(int(x * y)), end= " ")
+    y = y + 1
