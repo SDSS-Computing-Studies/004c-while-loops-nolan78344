@@ -23,5 +23,5 @@ while (count <= 101):
     x = y
     y = z
     count = count + 1
-    if x > 100:
+    if x > 144:
         break
