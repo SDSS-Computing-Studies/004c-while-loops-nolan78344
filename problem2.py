@@ -17,6 +17,6 @@ Enter a number: 4
 """
 y = 1
 x = float(input("Please enter number "))
-while y < 13:
+while (y < 13):
     print(str(int(x * y)), end= " ")
     y = y + 1
