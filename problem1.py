@@ -25,8 +25,8 @@ while User != "admin" and Pass != "12345":
     Pass = (input("Please enter password "))
     count = count + 1
     if User == "admin" and Pass == "12345":
-        print ("Access granted")
-    else:
         print ("Access denied")
+    else:
+        print ("Access granted")
     if count > 2:
         break
